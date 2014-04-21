@@ -1,0 +1,1 @@
+Benóm! Sto framework minimal 'l va :-)

@@ -1,0 +1,2313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"verify",
+				"verifyUser"
+			],
+			[
+				"veri",
+				"verifyUser"
+			],
+			[
+				"start",
+				"session_start"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"session",
+				"sessionValid"
+			],
+			[
+				"purpos",
+				"purposesCompleted"
+			],
+			[
+				"ratings",
+				"ratingsVerification"
+			],
+			[
+				"rating",
+				"ratingsVerification"
+			],
+			[
+				"time",
+				"time_in_trento"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"pic_re",
+				"pic_real_height"
+			],
+			[
+				"pic_real",
+				"pic_real_width"
+			],
+			[
+				"col-sm",
+				"col-sm-7"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Figu",
+				"figure"
+			],
+			[
+				"sec",
+				"sec	Section"
+			],
+			[
+				"vi",
+				"ViewThesis"
+			],
+			[
+				"a",
+				"abbr"
+			],
+			[
+				"use",
+				"usepackage"
+			],
+			[
+				"mus",
+				"museView	View MVC"
+			],
+			[
+				"muse",
+				"museView	test"
+			],
+			[
+				"pro",
+				"provei	test"
+			],
+			[
+				"p",
+				"par	Paragraph"
+			],
+			[
+				"prova",
+				"provasnippet"
+			],
+			[
+				"c",
+				"cha	Chapter"
+			],
+			[
+				"fu",
+				"functionbb	function"
+			],
+			[
+				"startLim",
+				"startLimFrom"
+			],
+			[
+				"dateCal",
+				"dateCalFrom"
+			],
+			[
+				"_update",
+				"_updateFromCalendar"
+			],
+			[
+				"_start",
+				"_startLstngCalEvts"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"htmlRowAd",
+				"htmlRowAdmGiftDays"
+			],
+			[
+				"htmlRwAdm",
+				"htmlRowAdmGiftDays"
+			],
+			[
+				"htmlRow",
+				"htmlRowAdmGift"
+			],
+			[
+				"scaleSte",
+				"scaleSteps"
+			],
+			[
+				"scaleS",
+				"scaleStartValue"
+			],
+			[
+				"full",
+				"fullname"
+			],
+			[
+				"closePop",
+				"closePopupsFnc"
+			],
+			[
+				"popupContent",
+				"popupContentEl"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"enable",
+				"enablePublish"
+			],
+			[
+				"evtiTM",
+				"evtItmEl"
+			],
+			[
+				"children",
+				"childrenViews"
+			],
+			[
+				"_atte",
+				"_userIsAttending"
+			],
+			[
+				"_event",
+				"_eventsToAlign"
+			],
+			[
+				"start_time",
+				"start_timeDate"
+			],
+			[
+				"attending",
+				"attendingDate"
+			],
+			[
+				"htmlTmp",
+				"htmlTmpMoreFriends"
+			],
+			[
+				"frien",
+				"friends_coming"
+			],
+			[
+				"disableA",
+				"disableAttendBtn"
+			],
+			[
+				"disa",
+				"disableAttendBtn"
+			],
+			[
+				"_disab",
+				"_disableAttend"
+			],
+			[
+				"booklimit",
+				"booklimitDate"
+			],
+			[
+				"_disable",
+				"_disableUnattendBtn"
+			],
+			[
+				"childre",
+				"childrenViews"
+			],
+			[
+				"_una",
+				"_unattendBtnEnabled"
+			],
+			[
+				"disab",
+				"disableAttend"
+			],
+			[
+				"_attend",
+				"_attendBtnEnabled"
+			],
+			[
+				"_add",
+				"_adminAddChild"
+			],
+			[
+				"_render",
+				"_renderEmptyDesc"
+			],
+			[
+				"confirm",
+				"confirmDelete"
+			],
+			[
+				"parent",
+				"parentChkDate"
+			],
+			[
+				"muse-modi",
+				"muse-modifyExhDay"
+			],
+			[
+				"_sho",
+				"_showDetails"
+			],
+			[
+				"exhibi",
+				"exhibitionCalendars"
+			],
+			[
+				"attendExh",
+				"_attendExh"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"height",
+				"heightToSet"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"typeSh",
+				"typeShr"
+			],
+			[
+				"page",
+				"pageToShow"
+			],
+			[
+				"breadCRUMB",
+				"breadcrumbDesc"
+			],
+			[
+				"CAN",
+				"_cancelEdit"
+			],
+			[
+				"progr",
+				"programLayout"
+			],
+			[
+				"progt",
+				"programLayout"
+			],
+			[
+				"breadcrum",
+				"breadcrumbDesc"
+			],
+			[
+				"breadcru",
+				"breadcrumbDesc"
+			],
+			[
+				"_upda",
+				"_updatePlaceForm"
+			],
+			[
+				"_up",
+				"_updateParentPic"
+			],
+			[
+				"shar",
+				"sharetype"
+			],
+			[
+				"host",
+				"hostToCheck"
+			],
+			[
+				"sharing",
+				"sharingUser"
+			],
+			[
+				"get",
+				"getUser"
+			],
+			[
+				"type",
+				"typeOfSharing"
+			],
+			[
+				"button",
+				"buttonShareEvent"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"hei",
+				"heightToSet"
+			],
+			[
+				"has",
+				"hasToFade"
+			],
+			[
+				"comm",
+				"commentToSend"
+			],
+			[
+				"creatio",
+				"creationTime"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"comment",
+				"commentDate"
+			],
+			[
+				"to",
+				"TODO"
+			],
+			[
+				"disable",
+				"disableButton"
+			],
+			[
+				"unatte",
+				"unattendBtn"
+			],
+			[
+				"enddATE",
+				"endDateUTC"
+			],
+			[
+				"startDa",
+				"startDateUTC"
+			],
+			[
+				"sta",
+				"startDatePicker"
+			],
+			[
+				"getUTC",
+				"getUTCDate"
+			],
+			[
+				"eve",
+				"eventDateLimit"
+			],
+			[
+				"gift",
+				"giftDateLimit"
+			],
+			[
+				"date",
+				"dateCheck"
+			],
+			[
+				"succes",
+				"successHandler"
+			],
+			[
+				"pa",
+				"parentViewFuncToCall"
+			],
+			[
+				"una",
+				"unattendEvent"
+			],
+			[
+				"friend",
+				"friendToRender"
+			],
+			[
+				"conn",
+				"connection-problem"
+			],
+			[
+				"respo",
+				"responseArrived"
+			],
+			[
+				"check",
+				"checkTrigger"
+			],
+			[
+				"sessio",
+				"sessionExpiration"
+			],
+			[
+				"rene",
+				"renewHandlerFuncName"
+			],
+			[
+				"atten",
+				"attendingFriendLayout"
+			],
+			[
+				"html",
+				"htmlTmpAttendingFriends"
+			],
+			[
+				"CLOSE",
+				"closeFriendsPopup"
+			],
+			[
+				"closeF",
+				"closeFriendsPopup"
+			],
+			[
+				"close",
+				"closeFriendsPopup"
+			],
+			[
+				"e",
+				"echo	<?php echo … ?>"
+			],
+			[
+				"organi",
+				"organizersString"
+			],
+			[
+				"del",
+				"deltaHeight"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"desc",
+				"description_ita"
+			],
+			[
+				"error",
+				"errorMessages"
+			],
+			[
+				"vali",
+				"validationError"
+			],
+			[
+				"Ej",
+				"EJS"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "minibakeca/index.php",
+			"settings":
+			{
+				"buffer_size": 505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "minibakeca/config/setup/setup.php",
+			"settings":
+			{
+				"buffer_size": 2097,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "minibakeca/controller/Controller.php",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"selected_items":
+		[
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"copy",
+				"File: Copy Name"
+			],
+			[
+				"copy nam",
+				"File: Copy Name"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"duplic",
+				"File: Duplicate"
+			],
+			[
+				"copy na",
+				"File: Copy Name"
+			],
+			[
+				"check",
+				"Git: Checkout Current File"
+			],
+			[
+				"checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git commit",
+				"Git: Quick Commit"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"git reset",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git ",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"name",
+				"File: Copy Name"
+			],
+			[
+				"git check",
+				"Git: Checkout Current File"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"git cre",
+				"Gist: Create Private Gist"
+			],
+			[
+				"key bi",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"projec",
+				"Project: Edit"
+			],
+			[
+				"syntax late",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"PROJE",
+				"Project: Edit"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"project",
+				"Project: Edit"
+			],
+			[
+				"svn",
+				"SVN: Checkout…"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"commit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"text",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git add f",
+				"Git: Add Current File"
+			],
+			[
+				"GIT STA",
+				"Git: Status"
+			],
+			[
+				"GIT ",
+				"Git: Fetch"
+			],
+			[
+				"GIT",
+				"Git: Status"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git dele",
+				"Git: Add Current File"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"proje",
+				"Project: Edit"
+			],
+			[
+				"todo",
+				"Show TODOs: Open files only"
+			],
+			[
+				"open",
+				"Open URL"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"svn update",
+				"SVN: Update"
+			],
+			[
+				"svn log",
+				"SVN: Log"
+			],
+			[
+				"svn ",
+				"SVN: (File) Info"
+			],
+			[
+				"svn lo",
+				"SVN: Log"
+			],
+			[
+				"svn revert",
+				"SVN: (File) Revert"
+			],
+			[
+				"svn diff",
+				"SVN: (File) Diff"
+			],
+			[
+				"svn reve",
+				"SVN: (File) Revert"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"reque",
+				"HTTP Requester"
+			],
+			[
+				"req",
+				"HTTP Requester"
+			],
+			[
+				"requ",
+				"HTTP Requester"
+			],
+			[
+				"re",
+				"HTTP Requester"
+			],
+			[
+				"request",
+				"HTTP Requester"
+			],
+			[
+				"disabe",
+				"Package Control: Disable Package"
+			],
+			[
+				"SVN COMM",
+				"SVN: Commit…"
+			],
+			[
+				"DELETE",
+				"File: Delete"
+			],
+			[
+				"svn comm",
+				"SVN: Commit…"
+			],
+			[
+				"svn sta",
+				"SVN: Status"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"svn status",
+				"SVN: Status"
+			],
+			[
+				"svn resolve",
+				"SVN: (File) Resolve Tree Conflict, Interactive…"
+			],
+			[
+				"svn reso",
+				"SVN: Resolve Tree Conflict, Interactive…"
+			],
+			[
+				"svn upda",
+				"SVN: (File) Update"
+			],
+			[
+				"svn add",
+				"SVN: (File) Add"
+			],
+			[
+				"svn upd",
+				"SVN: Update"
+			],
+			[
+				"copy pa",
+				"File: Copy Path From Project"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"copy ",
+				"File: Copy Path From Project"
+			],
+			[
+				"OPEN",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"COPY",
+				"File: Copy Path From Project"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"duplia",
+				"File: Duplicate"
+			],
+			[
+				"cpy pa",
+				"File: Copy Path From Project"
+			],
+			[
+				"open ",
+				"Gist: Open Gist"
+			],
+			[
+				"svn statu",
+				"SVN: Status"
+			],
+			[
+				"enabe",
+				"Package Control: Enable Package"
+			],
+			[
+				"svn om",
+				"SVN: (Folder) Move…"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"link",
+				"Tasks: Open Link"
+			],
+			[
+				"enable ",
+				"Package Control: Enable Package"
+			],
+			[
+				"copy path",
+				"File: Copy Path From Project"
+			],
+			[
+				"update",
+				"Gist: Update File"
+			],
+			[
+				"open gis",
+				"Gist: Open Gist"
+			],
+			[
+				"create gi",
+				"Gist: Create Public Gist"
+			],
+			[
+				"open gi",
+				"Gist: Open Gist"
+			],
+			[
+				"open gist",
+				"Gist: Open Gist"
+			],
+			[
+				"svn commt",
+				"SVN: Commit…"
+			],
+			[
+				"insert",
+				"Gist: Insert Gist"
+			],
+			[
+				"g",
+				"Gist: Create Public Gist"
+			],
+			[
+				"diff",
+				"SVN: (File) Diff"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"DISABLE",
+				"Package Control: Disable Package"
+			],
+			[
+				"svn co",
+				"SVN: Commit…"
+			],
+			[
+				"copy name",
+				"File: Copy Name"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"copy from",
+				"File: Copy Path From Project"
+			],
+			[
+				"duplicat",
+				"File: Duplicate"
+			],
+			[
+				"COMM",
+				"SVN: Commit…"
+			],
+			[
+				"block",
+				"Toggle Block Comment"
+			],
+			[
+				"svn di",
+				"SVN: Diff"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"search",
+				"Search In Project"
+			],
+			[
+				"svn com",
+				"SVN: Commit…"
+			],
+			[
+				"dpli",
+				"File: Duplicate"
+			],
+			[
+				"DUPL",
+				"File: Duplicate"
+			],
+			[
+				"prefixr",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"svn rever",
+				"SVN: (File) Revert"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 470.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bertuz/Sites/bakeca/minibakeca/controller/indexController.php",
+		"/Users/bertuz/Sites/bakeca/minibakeca/minibakeca.sublime-workspace",
+		"/Users/bertuz/Sites/bakeca/mvc/index.php",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/VerifySurvey.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/thanks.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/headPlace.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/placeItem.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_headstep.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/headPlaceView.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/models/Place.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/verifyPlaceItem.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/collections/Ratings.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/restaurantRow.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/models/Rating.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/api/objects.php",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/api/index.php",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_place-item.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_rating-steps.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/placeRowView.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/db/CAT.sql",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/style.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/placesStep.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_styles.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/style/css/style.css",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/index.html",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/lib/MuseBackbone.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/helpers/templateHelper.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_general.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/thanks.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_thanks.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/verifySurvey.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/init.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/config.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/stepView.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/models/Information.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/auth/Session.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/models/User.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/collections/Places.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/CA.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/routers/mainRouter.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/Information.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/.sass-cache/1ecc81c43dedc5246743a8bf7678481db495ae53/_step.scssc",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_information.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/style/css/_step.css",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/auth/Facebook.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/information.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/verify.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/auth/facebook.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/Session.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_step.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/information.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/welcomeView.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/untitled",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/templates/welcome.ejs",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_welcome.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/_head-step.scss",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/untitled",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/style/css/bootstrap.min.css",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/restaurantRow.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/api/Slim/Router.php",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/views/personalStepView.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/api/.htaccess",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/api/Slim/Slim.php",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/scripts/models/models.js",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/general.scss",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/.sassbuilder-config",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/style.css",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/style.sass",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/sass/.sassbuilder-config.json",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/db/ratings.sql",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/db.sql",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/dev/db/places.sql",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/survey.sublime-project",
+		"/Users/bertuz/Sites/unitn/surveyRestaurants/survey.sublime-workspace",
+		"/Users/bertuz/Documents/cv/test.tex",
+		"/Users/bertuz/Documents/cv/cv.tex",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/state_of_art.log",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/sigproc-sp.tex",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/sigproc.bib",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/User/tex/figure.sublime-snippet",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/test.tex",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/thesis.sublime-project",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/test.tex",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/comeAlong.tex",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/references.bib",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/state_of_art.tex",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/Tex Snippets/backbone.snippet",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/prova.tex",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/test.js",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/User/LaTeX/test.sublime-snippet",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/thesis.tex",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/test.text",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/test.text",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/scenario.tex",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/thesis.sublime-workspace",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/comeAlong.txt",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/.gitignore",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/state_of_art.aux",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/state_of_art.tex",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/state of art.tex",
+		"/Users/bertuz/Documents/università/thesis/thesis/doc/ths/thesis.aux",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/bertuz/Sites/muse-website-intV2/index.html",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/EditEvent.js",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/ejs/admin/editEvent/editEvent.ejs",
+		"/Users/bertuz/Sites/muse-website/trunk/lib/highcharts.js",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/User/SVN.errors.log",
+		"/var/folders/0q/tvxpdxm54ln13tz7vh5d7n2h0000gn/T/sublime-svn-1388625621/SVN",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/EditPic.js",
+		"/Users/bertuz/Sites/muse-website/trunk/lib/MuseBackbone.js",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/ExhAttendBtn.js",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/CalendarPopup.js",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/AttendEvent.js",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/Event.js",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/ParticipateEvent.js",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/models/Event.js",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/ExhibitionCalendars.js",
+		"/Users/bertuz/Sites/muse-website/trunk/ascii.txt",
+		"/Users/bertuz/Sites/muse-website/trunk/index.html",
+		"/var/folders/0q/tvxpdxm54ln13tz7vh5d7n2h0000gn/T/sublime-svn-1388607764/SVN",
+		"/Users/bertuz/Sites/muse-website/trunk/scripts/views/EditEventGift.js",
+		"/var/folders/0q/tvxpdxm54ln13tz7vh5d7n2h0000gn/T/sublime-svn-1388601868/SVN",
+		"/var/folders/0q/tvxpdxm54ln13tz7vh5d7n2h0000gn/T/sublime-svn-1388601785/SVN",
+		"/Users/bertuz/Library/Application Support/Sublime Text 2/Packages/SVN/SVN.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/bertuz/Sites/unitn/surveyRestaurants",
+			"",
+			"../",
+			"./",
+			"/Users/bertuz/Documents/università/",
+			"/Users/bertuz/Documents/università/thesis/thesis/doc/ths",
+			"/Users/bertuz/Sites/muse-website/trunk/",
+			"/Users/bertuz/Sites/muse-website/trunk/scripts/views",
+			"/Users/bertuz/Sites/muse-website/trunk/views",
+			"/Users/bertuz/Sites/muse-website/trunk"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"none",
+			"btns-rating",
+			" style=\"vertical-align: middle;\"",
+			" style=\"display: inline-block; white-space: normal; width: 60%; vertical-align: middle; margin-left: 0.5em; margin-top: 0.5em;\"",
+			"span",
+			"place_id",
+			"user_id",
+			"verifyUser",
+			".attr",
+			"_verifyRtngPlc",
+			"		notknown : \"style/img/btns/not_known.png\",\n		notknownSel : \"style/img/btns/not_knownSel.png\"",
+			"data",
+			"notknownSel.png",
+			"notknown.png",
+			"notknown",
+			"lunch",
+			"friends",
+			"romantic",
+			"tourism",
+			"tourism_like",
+			"tourism",
+			"collection",
+			"allRated",
+			"neutral",
+			"like",
+			"_ratePlace",
+			"view(",
+			"onHeadRated",
+			"PlaceRowView",
+			".ejs",
+			"newRow",
+			"onratingcompl",
+			"purpose",
+			".purpose-tab",
+			"#init-environment",
+			"_loadPlaces",
+			"collection",
+			"_adjustHeader",
+			"helper",
+			"__TRUSTWORTHY_RATINGS",
+			"seconds_timeout",
+			"TRUSTWORTH_RATINGS",
+			"userHasVoted",
+			"trustworth",
+			"TRUSTWORTH_",
+			"__TRUSTWORTH_RATINGS",
+			"saveInformationUser",
+			"ratings-body",
+			"question-desc",
+			"question",
+			"purpose-tab",
+			"font-sizefont-size",
+			"font-size",
+			"v-align",
+			"align: center",
+			"alert",
+			"prevent",
+			"showmodal",
+			"modal",
+			"sessionvali",
+			"gotone",
+			"param",
+			"GLOBALS",
+			"trustful",
+			"$request = Slim::getInstance()->request();",
+			"fb_extid",
+			"friends",
+			"_rateRowPlace",
+			"pull-right",
+			"div",
+			"stmt->exe",
+			"fetchAll",
+			"ret",
+			"fetchAll",
+			"question-desc",
+			"ratings-body",
+			"Collections.Ratings",
+			"alert",
+			"$friends",
+			"time_in_Trento",
+			"trento",
+			"time_in_trento",
+			"time_in_Trento",
+			"time_in_trento",
+			"trento",
+			"Trento",
+			"time_in_trento",
+			"editUser",
+			"place_id",
+			"purpose",
+			"user_id",
+			"rating",
+			"living",
+			"sex",
+			"collection",
+			"model",
+			"MuSe.Auth.Facebook",
+			"renew",
+			"MuSe.Auth.Facebook",
+			"muse",
+			"MuSe.Auth.Facebook",
+			"option2",
+			"id=\"living2\"",
+			"optionsRadios",
+			"option2",
+			"id=\"age2\"",
+			"optionsRadios",
+			"serifserif",
+			"serif",
+			"form",
+			"1.5em",
+			"checkbox",
+			"Checkbox",
+			"checkbox",
+			"Checkbox",
+			"checkbox",
+			"steps",
+			"stepscompleted",
+			"stepsCompleted",
+			"steps",
+			"->purposes",
+			"STEPS",
+			"purposesCompleted",
+			"stepsCompleted",
+			"isSessionValid",
+			"CA.app.models",
+			"CA.Auth.Session.userModel",
+			"stepscompl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ComeAlong per Musei",
+			"MuSe.helpers.showToast",
+			"MuSe.helpers.italianStringDate",
+			"MuSe.helpers.parseURL",
+			"MuSe.helpers.getDateFromDateObj",
+			"MuSe.helpers.getTimeFromDateObj",
+			"MuSe.helpers.",
+			"0px;",
+			"\"\";"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "minibakeca/index.php",
+					"settings":
+					{
+						"buffer_size": 505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"laxbreak": false,
+								"laxcomma": false
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "minibakeca/config/setup/setup.php",
+					"settings":
+					{
+						"buffer_size": 2097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"laxbreak": false,
+								"laxcomma": false
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "minibakeca/controller/Controller.php",
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"laxbreak": false,
+								"laxcomma": false
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index.php",
+				"api/index.php"
+			],
+			[
+				"index.html",
+				"index.html"
+			],
+			[
+				"index.ht",
+				"index.html"
+			],
+			[
+				"index.",
+				"index.html"
+			],
+			[
+				"index.h",
+				"index.html"
+			],
+			[
+				"index",
+				"api/index.php"
+			],
+			[
+				"step.ejs",
+				"scripts/templates/placeItem.ejs"
+			],
+			[
+				"step",
+				"scripts/views/stepView.js"
+			],
+			[
+				"placeitem",
+				"scripts/views/placeItemView.js"
+			],
+			[
+				"item",
+				"scripts/templates/placeItem.ejs"
+			],
+			[
+				"stepvi",
+				"scripts/views/stepView.js"
+			],
+			[
+				"helpe",
+				"scripts/helpers/templateHelper.js"
+			],
+			[
+				"headpl",
+				"scripts/templates/headPlace.ejs"
+			],
+			[
+				"thanks",
+				"scripts/views/thanks.js"
+			],
+			[
+				"rating",
+				"scripts/models/Rating.js"
+			],
+			[
+				"user",
+				"scripts/models/User.js"
+			],
+			[
+				"verifysurvey",
+				"scripts/templates/verifySurvey.ejs"
+			],
+			[
+				"verif",
+				"scripts/views/VerifySurvey.js"
+			],
+			[
+				"verify",
+				"scripts/views/VerifySurvey.js"
+			],
+			[
+				"ratings",
+				"scripts/collections/Ratings.js"
+			],
+			[
+				"restaurantro",
+				"scripts/templates/restaurantRow.ejs"
+			],
+			[
+				"veri",
+				"scripts/views/VerifySurvey.js"
+			],
+			[
+				"information",
+				"scripts/views/Information.js"
+			],
+			[
+				"config",
+				"scripts/config.js"
+			],
+			[
+				"styles",
+				"dev/sass/_styles.scss"
+			],
+			[
+				"general",
+				"dev/sass/_general.scss"
+			],
+			[
+				"place",
+				"scripts/models/Place.js"
+			],
+			[
+				"object",
+				"api/objects.php"
+			],
+			[
+				".ejs",
+				"scripts/templates/placesStep.ejs"
+			],
+			[
+				"placesstep",
+				"scripts/templates/placesStep.ejs"
+			],
+			[
+				"head",
+				"scripts/views/headPlaceView.js"
+			],
+			[
+				"sql",
+				"dev/db/CAT.sql"
+			],
+			[
+				"row",
+				"scripts/templates/restaurantRow.ejs"
+			],
+			[
+				"style",
+				"dev/sass/style.scss"
+			],
+			[
+				"he",
+				"scripts/views/headPlaceView.js"
+			],
+			[
+				"head.cs",
+				"dev/sass/_headstep.scss"
+			],
+			[
+				"mainrout",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"confi",
+				"scripts/config.js"
+			],
+			[
+				"mainrou",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"style.sc",
+				"dev/sass/style.scss"
+			],
+			[
+				"ejs",
+				"scripts/templates/placesStep.ejs"
+			],
+			[
+				"step.ej",
+				"scripts/templates/placesStep.ejs"
+			],
+			[
+				"_step",
+				"dev/sass/_rating-steps.scss"
+			],
+			[
+				"main",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"ca",
+				"scripts/CA.js"
+			],
+			[
+				"mainro",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"gener",
+				"dev/sass/_general.scss"
+			],
+			[
+				"indexp",
+				"api/index.php"
+			],
+			[
+				"sty",
+				"dev/sass/_styles.scss"
+			],
+			[
+				"thaks",
+				"scripts/views/thanks.js"
+			],
+			[
+				"model",
+				"scripts/models/User.js"
+			],
+			[
+				"session",
+				"scripts/auth/Session.js"
+			],
+			[
+				"index.ph",
+				"api/index.php"
+			],
+			[
+				"thank",
+				"scripts/views/thanks.js"
+			],
+			[
+				"info",
+				"scripts/views/Information.js"
+			],
+			[
+				"informa",
+				"scripts/views/Information.js"
+			],
+			[
+				"inform",
+				"scripts/views/Information.js"
+			],
+			[
+				"maino",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"informatio",
+				"scripts/views/Information.js"
+			],
+			[
+				"informaio",
+				"scripts/views/Information.js"
+			],
+			[
+				"informat",
+				"scripts/views/Information.js"
+			],
+			[
+				"ver",
+				"scripts/views/VerifySurvey.js"
+			],
+			[
+				"",
+				"scripts/templates/verifySurvey.ejs"
+			],
+			[
+				"stepv",
+				"scripts/views/stepView.js"
+			],
+			[
+				"stepvy",
+				"scripts/templates/verifySurvey.ejs"
+			],
+			[
+				"restaurantrow",
+				"scripts/templates/restaurantRow.ejs"
+			],
+			[
+				"steps",
+				"dev/sass/_rating-steps.scss"
+			],
+			[
+				"verf",
+				"scripts/views/VerifySurvey.js"
+			],
+			[
+				"ve",
+				"scripts/views/VerifySurvey.js"
+			],
+			[
+				"rati",
+				"scripts/collections/Ratings.js"
+			],
+			[
+				"ra",
+				"scripts/collections/Ratings.js"
+			],
+			[
+				"coll",
+				"scripts/collections/Ratings.js"
+			],
+			[
+				"views",
+				"scripts/views/stepView.js"
+			],
+			[
+				"mainr",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"facebook",
+				"scripts/auth/Facebook.js"
+			],
+			[
+				"stapvi",
+				"scripts/views/headPlaceView.js"
+			],
+			[
+				"stepej",
+				"scripts/templates/placesStep.ejs"
+			],
+			[
+				"models",
+				"scripts/models/Information.js"
+			],
+			[
+				"ob",
+				"api/objects.php"
+			],
+			[
+				"obje",
+				"api/objects.php"
+			],
+			[
+				"sess",
+				"scripts/auth/Session.js"
+			],
+			[
+				"sessio",
+				"scripts/auth/Session.js"
+			],
+			[
+				"router",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"information.ejs",
+				"scripts/templates/information.ejs"
+			],
+			[
+				"infor",
+				"scripts/views/Information.js"
+			],
+			[
+				"routin",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"views/",
+				"scripts/views/stepView.js"
+			],
+			[
+				"models/in",
+				"scripts/models/Information.js"
+			],
+			[
+				"faceb",
+				"scripts/auth/Facebook.js"
+			],
+			[
+				"auth",
+				"scripts/auth/Facebook.js"
+			],
+			[
+				"init",
+				"scripts/init.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"face",
+				"scripts/auth/Facebook.js"
+			],
+			[
+				"gene",
+				"dev/sass/_general.scss"
+			],
+			[
+				"headstep",
+				"dev/sass/_headstep.scss"
+			],
+			[
+				"route",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"placestep",
+				"scripts/templates/placesStep.ejs"
+			],
+			[
+				"rout",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"routi",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"objec",
+				"api/objects.php"
+			],
+			[
+				"index.p",
+				"api/index.php"
+			],
+			[
+				"stepview",
+				"scripts/views/stepView.js"
+			],
+			[
+				"stepvie",
+				"scripts/views/stepView.js"
+			],
+			[
+				"indx",
+				"api/index.php"
+			],
+			[
+				"places",
+				"scripts/collections/Places.js"
+			],
+			[
+				"ma",
+				"scripts/routers/mainRouter.js"
+			],
+			[
+				"conf",
+				"scripts/config.js"
+			],
+			[
+				"obe",
+				"api/objects.php"
+			],
+			[
+				"welcome",
+				"scripts/views/welcomeView.js"
+			],
+			[
+				"st",
+				"scripts/views/stepView.js"
+			],
+			[
+				"headpla",
+				"scripts/views/headPlaceView.js"
+			],
+			[
+				"muse",
+				"lib/MuseBackbone.js"
+			],
+			[
+				"models/pla",
+				"scripts/models/Place.js"
+			],
+			[
+				"scripts/view/unti",
+				"scripts/views/untitled"
+			],
+			[
+				"untitl",
+				"scripts/views/untitled"
+			],
+			[
+				"headplace",
+				"scripts/views/headPlaceView.js"
+			],
+			[
+				"museback",
+				"lib/MuseBackbone.js"
+			],
+			[
+				"headplaceview",
+				"scripts/views/headPlaceView.js"
+			],
+			[
+				"helper",
+				"scripts/helpers/templateHelper.js"
+			],
+			[
+				"view",
+				"scripts/views/welcomeView.js"
+			],
+			[
+				"api/",
+				"api/index.php"
+			],
+			[
+				"sstepvi",
+				"scripts/views/stepView.js"
+			],
+			[
+				"welc",
+				"scripts/views/welcomeView.js"
+			],
+			[
+				"welcome.e",
+				"scripts/templates/welcome.ejs"
+			],
+			[
+				"placestep.ejs",
+				"scripts/templates/placesStep.ejs"
+			],
+			[
+				"sass",
+				"dev/sass/style.scss"
+			],
+			[
+				"welcome.ejs",
+				"scripts/templates/welcome.ejs"
+			],
+			[
+				"lib/muse",
+				"lib/MuseBackbone.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/bertuz/Sites/muse-website-intV2/interfaceV2.sublime-project"
+			]
+		],
+		"width": 567.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 362.0,
+	"status_bar_visible": true
+}
