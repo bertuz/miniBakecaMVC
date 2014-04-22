@@ -1,6 +1,7 @@
 <?php
 
 class InsAnnuncioView extends View {
+	private $objOp;
 
 	function __construct($route, Model $model = null) {
 		$this->route = $route;
@@ -10,7 +11,7 @@ class InsAnnuncioView extends View {
 	private function renderValidationErrors($fromValidation = true) {
 		if($fromValidation) {
 			$params = array("errorMessage"=> "Fai attenzione ai seguenti errori e riprova:");
-			$params['errors'] = $this->model->getValidationMessages();
+			$params['errors'] = $this->objOp->errors;
 		}
 		else
 			$params = array("errorMessage"=> "Un errore imprevisto ha impedito il salvataggio dell'annuncio. Per favore, riprova.");
@@ -33,15 +34,17 @@ class InsAnnuncioView extends View {
 	}
 
 	public function output() {
-		if(is_object($this->model->getData())) {
-			if(!is_null($this->model->getValidationMessages()))
-				$this->renderValidationErrors();
+		if(is_object($this->model->getOperationData())) {
+			$this->objOp = $this->model->getOperationData();
 
-			else if(!empty($this->model->getData()->ID))
-				$this->renderInsertionComplete();
-			
+			if(!$this->objOp->success){
+				if(!is_null($this->objOp->errors))
+					$this->renderValidationErrors();
+				else
+					$this->renderInsertionFailed();	
+			}	
 			else
-				$this->renderInsertionFailed();
+				$this->renderInsertionComplete();
 		}
 		else
 			$this->renderToInsert();

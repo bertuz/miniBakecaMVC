@@ -1,25 +1,32 @@
 <?php
 /**
- * File che consente di inizializzare l'ambiente del sito (database, etc..)
+ * File che eseguito consente di inizializzare l'ambiente del sito.
+ * @link config.config file di configurazione letto durante il setup.
+ * @author Matteo Appfarmer
 */
 
-
+/**
+*/
 require("helper.php");
 require("../config.php");
 
-
+/**
+ * Contiene le varie logiche di setup dell'applicativo.
+ * @link config.config file di configurazione letto durante il setup.
+ * @author Matteo Appfarmer 
+*/
 class Setup {
 	/**
-	 * path del file contenente il dump del database del sito, ai fini dell'inizializzazione
+	 * path del file contenente il dump del database del sito, ai fini dell'inizializzazione del DB
 	*/
 	private static $dbms_schema = 'db.sql';
 	
 	/**
 	 * Inizializza il database dell'applicativo
-	 * @return array 
+	 * @return mixed[] array associativo
 	 *
-	 * array['result'] *false* se non a buon fine, *true* altrimenti.
-	 * array['message'] messaggio d'errore nel caso result sia false.
+	 * - array['result'] *false* se non a buon fine, *true* altrimenti.
+	 * - array['message'] messaggio d'errore nel caso result sia false.
 	*/
 	public static function initiateDB() {
 		global $db_host;

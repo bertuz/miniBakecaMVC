@@ -1,10 +1,13 @@
 <?php
 
+/**
+ * Implementazione dell'interfaccia AnnuncioDAO per DB mysql
+*/
 class AnnuncioMysqlDAO implements AnnuncioDAO {
 	protected $dbConnection;
 
 	/**
-	 * @param MysqlDB
+	 * @param MysqlDB $dbConnection
 	*/
 	public function __construct($dbConnection) {
 		$this->dbConnection = $dbConnection;
@@ -12,7 +15,7 @@ class AnnuncioMysqlDAO implements AnnuncioDAO {
 
 	/**
 	 * @param int ID
-	 * @return AnnuncioData , null in caso non esista l'ID recuperato, false nel caso siano stati riscontrati problemi con il DB
+	 * @return AnnuncioData|null|boolean  null in caso non esista l'ID recuperato, false nel caso siano stati riscontrati problemi con il DB
 	*/
 	public function findByID($ID) {
 		$ret = new AnnuncioData();
@@ -49,10 +52,10 @@ class AnnuncioMysqlDAO implements AnnuncioDAO {
 		return $ret;
 	}
 
-	public function save(){
-
-	}
-
+	/**
+	 * @param AnnuncioData $annuncio 
+	 * @return boolean **true** nel caso l'update nel persistent layer sia andato a buon fine, false altrimenti
+	*/	
 	public function update(AnnuncioData $annuncio) {
 		$res;
 		$SQL = "REPLACE INTO `annuncio` (`title`,`description`,`date`,`name`,`email`,`views`,`answers`,`ID`) VALUES(:title, :description, :date, :name, :email, :views, :answers, :ID);";
@@ -79,6 +82,11 @@ class AnnuncioMysqlDAO implements AnnuncioDAO {
 			return true;
 	}
 
+	/**
+	 * Nel caso l'inserimento dell'annuncio nel persistent layer ha successo, viene aggiornato il campo ID del value object passato 
+	 * @param AnnuncioData $annuncio 
+	 * @return boolean **true** nel caso l'inserimento nel persistent layer sia andato a buon fine, false altrimenti
+	*/	
 	public function insertAnnuncio(AnnuncioData $annuncio){
 		$SQL = "REPLACE INTO `annuncio` (`title`,`description`,`date`,`name`,`email`,`views`,`answers`,`ID`) VALUES(:title, :description, DEFAULT, :name, :email, DEFAULT, DEFAULT, DEFAULT);";
 

@@ -1,6 +1,14 @@
+-- phpMyAdmin SQL Dump
+-- version 4.1.12
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Apr 21, 2014 at 07:53 PM
+-- Server version: 5.6.17
+-- PHP Version: 5.4.24
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -20,51 +28,22 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `annuncio` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(30) NOT NULL,
-  `desc` text NOT NULL,
-  `title` varchar(120) NOT NULL,
-  `url_img` varchar(300) NOT NULL,
-  `date_inserted` date NOT NULL,
-  `date_end` date NOT NULL,
+  `title` varchar(120) CHARACTER SET utf8 COLLATE utf8_roman_ci NOT NULL,
+  `description` text CHARACTER SET utf8 COLLATE utf8_roman_ci NOT NULL,
+  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `name` varchar(100) CHARACTER SET utf8 COLLATE utf8_roman_ci NOT NULL,
+  `email` varchar(100) CHARACTER SET utf8 COLLATE utf8_roman_ci NOT NULL,
+  `views` int(11) NOT NULL DEFAULT '0',
+  `answers` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
-
--- --------------------------------------------------------
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=57 ;
 
 --
--- Table structure for table `interests`
+-- Dumping data for table `annuncio`
 --
 
-CREATE TABLE IF NOT EXISTS `interests` (
-  `interested_in` int(11) NOT NULL,
-  `interested_by` int(11) NOT NULL,
-  KEY `interested_by` (`interested_by`),
-  KEY `interested_by_2` (`interested_in`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `user`
---
-
-CREATE TABLE IF NOT EXISTS `user` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(300) NOT NULL,
-  `name` varchar(100) NOT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
-
---
--- Constraints for dumped tables
---
-
---
--- Constraints for table `interests`
---
-ALTER TABLE `interests`
-  ADD CONSTRAINT `interested_by` FOREIGN KEY (`interested_by`) REFERENCES `user` (`ID`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `interested_in` FOREIGN KEY (`interested_in`) REFERENCES `annuncio` (`ID`) ON UPDATE CASCADE;
+INSERT INTO `annuncio` (`ID`, `title`, `description`, `date`, `name`, `email`, `views`, `answers`) VALUES
+(1, 'Programmatore poliedrico offresi', 'Ciao! \r\nSono un assegnista di ricerca dell''università di Trento. Sto cercando lavoro in quel di Torino come front end e/o back end developer.\r\nPer maggiori informazioni contattatemi.', '2014-04-19 15:03:22', 'Matteo', 'matteoappfarmer@gmail.comm', 76, 1);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

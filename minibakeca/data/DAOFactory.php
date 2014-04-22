@@ -2,21 +2,40 @@
 
 require_once('MysqlDB.php');
 
+/**
+ * Classe Factory al fine di semplificare l'acquisizione degli oggetti DAO.
+ *
+ * La classe permette l'eventuale sostituzione delle implementazioni 
+ * dei vari DAO in maniera centralizzata e semplificiata (nessuna altra modifica se non in questa classe).
+ *
+ * La classe, oltre a seguire il pattern Factory, utilizza una variante del pattern Singleton: nel caso 
+ * si voglia ottenere un'istanza di DAOFactory, questa viene ottenuta tramite _getFactory_, la quale restituisce
+ * sempre la stessa istanza della classe.
+ * Nel caso si voglia sostituire il Factory, questo è possibile tramite _setFactory_: _getFactory_ restituirà quindi la nuova istanza definita
+ * 
+*/
 class DAOFactory {
+	/**
+	 * @var DAOFactory (unica) istanza della classe
+	*/
 	private static $instance;
  
-	public function __construct() { }
+ 	/**
+ 	 * costruttore protetto per evitare molteplici istanze di DAOFactory. Utilizzare getFactory
+ 	 * @see getFactory() getFactory 
+ 	*/
+	protected function __construct() { }
 
 	/**
-	 * Set the factory instance
-	 * @param App_DaoFactory $f
+	 * Imposta una nuova personale istanza di DAOFactory. Utile nel caso si voglia modificare il comprotamento del factory (es: nuove politiche di persistenza dei dati a runtime)
+	 * @param DAOFactory $i
 	 */
-	public static function setFactory(DAOFactory $f) {
-		self::$instance = $f;
+	public static function setFactory(DAOFactory $i) {
+		self::$instance = $i;
 	}
 
 	/**
-	 * Get a factory instance. 
+	 * Restituisce l'unica istanza DAOFactory disponibile. Nel caso non esiste, la crea.
 	 * @return DAOFactory
 	 */
 	public static function getFactory() {
@@ -27,10 +46,9 @@ class DAOFactory {
 	}
 
 	/**
-	 * DAO
-	 * Se voglio cambiare DAO basta cambiare l'implementazione qui (i.e. cambio di database)
-	 * ecco il vantaggio di questo pattern di tipo factory
-	 * @return AnnuncioDAO interfaccia DAO di Annuncio, null con problemi di connessione al DB
+	 * Nel caso voglia cambiare DAO, basta cambiare l'implementazione qui (i.e. cambio di database).
+	 * Ecco il vantaggio di questo pattern di tipo factory
+	 * @return AnnuncioDAO|null interfaccia DAO di Annuncio, null con problemi di connessione al DB
 	 */
 	public function getAnnuncioDAO() {
 		try {
@@ -40,6 +58,11 @@ class DAOFactory {
 		}
 	}
 
+	/**
+	 * Nel caso voglia cambiare DAO, basta cambiare l'implementazione qui (i.e. cambio di database).
+	 * Ecco il vantaggio di questo pattern di tipo factory
+	 * @return AnnunciDAO|null interfaccia DAO di Annunci, null con problemi di connessione al DB
+	 */
 	public function getAnnunciDAO() {
 		try {
 			return new AnnunciMysqlDAO(MysqlDB::getInstance());

@@ -1,15 +1,28 @@
 <?php
 
 /**
- * Rappresenta un instradamento del front controller
+ * Value Object che rappresenta un instradamento del front controller
 */
 class Route { 
+    /**
+     * @var String
+    */
     protected $model; 
+
+    /**
+     * @var String
+    */
     protected $view; 
+
+    /**
+     * @var String
+    */    
     protected $controller; 
   	
   	/**
- 	 * aa
+ 	 * @param String|null $model nome del Model MVC scelto, null nel caso il path non necessiti di un modello 
+     * @param String|null $view nome del View MVC scelto, null nel caso il path non necessiti di una view
+     * @param String|null $controller nome del Controller MVC scelto, null nel caso il path non necessiti di un controller
 	*/   
     public function __construct($model, $view, $controller) { 
         $this->model = $model; 
@@ -18,25 +31,43 @@ class Route {
     } 
 
 	/**
- 	 * @return String
+ 	 * @return String|null
 	*/
     public function getModel() {
     	return $this->model;
     }
 
+    /**
+     * @return String|null
+    */
     public function getView() {
     	return $this->view;
     }
 
+    /**
+     * @return String|null
+    */
     public function getController() {
     	return $this->controller;
     }
 }
 
 /**
- * 
+ * Reppresenta la logica di routing dell'applicativo.
+ * In questo framework MVC ho scelto un **routing di tipo STATICO** vista la limitata grandezza
+ * e la praticità che questa comporta.
+ *
+ * Il router, in base al path passato, restituisce il nome (classe) delle risorse M-V-C necessarie in rapporto 1:1:1 tramite l'oggetto _Route_, successivamente istanziate e utilizzate dal Front Controller.
+ * A ogni richiesta, quindi, non sarà associato più di un Model e di una View a ogni Controller.
+ *
+ * Nel caso alcuni path non necessitino di un modello (es: semplice visualizzazione di una pagina statica) o di un controller, non saranno restituiti i rispettivi nomi (classe) nell'oggetto _Route_ restituito
+ *
+ * Il router gestisce path non riconosciuti istanziando una View che permette la visualizzazioe di una pagina predefinita.
 */
 class Router { 
+    /**
+     * la tabella di routing contenente i nomi dei Model,View e Controller da istanziare per ogni specifico path
+    */
     private $table = array(); 
      
     public function __construct() { 
@@ -47,13 +78,17 @@ class Router {
         $this->table['notFound'] = new Route(null, 'NotFoundView', null);
     } 
      
-    public function getRoute($route) { 
+    /**
+     * @return Route
+     * @param String $path
+    */
+    public function getRoute($path) { 
     	$ret = null;
         
-        if(empty($route))
+        if(empty($path))
             $ret = $this->table['home'];
         else
-            $ret = $this->table[$route];
+            $ret = $this->table[$path];
         
         if(! isset($ret))
         	$ret = $this->table['notFound'];

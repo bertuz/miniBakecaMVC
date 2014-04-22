@@ -1,19 +1,22 @@
 <?php
 
+/**
+ * Implementazione dell'interfaccia AnnunciDAO per DB mysql
+*/
 class AnnunciMysqlDAO implements AnnunciDAO {
 	protected $dbConnection;
 
 	/**
-	 * @param MysqlDB
+	 * @param MysqlDB $dbConnection
 	*/
 	public function __construct($dbConnection) {
 		$this->dbConnection = $dbConnection;
 	}
 
 	/**
-	 * @param String orderBy campo su cui ordinare la lista
-	 * @param desc true/false ordinare in senso contrario o meno
-	 * @return AnnunciData , false nel caso siano stati riscontrati problemi con il DB
+	 * @param String $orderBy campo su cui ordinare la lista
+	 * @param $desc true/false per ordinare in senso contrario o meno la lista
+	 * @return AnnunciData|boolean  false nel caso siano stati riscontrati problemi con il DB
 	*/
 	public function getAnnunci($orderBy, $desc) {
 		$ret = new AnnunciData();

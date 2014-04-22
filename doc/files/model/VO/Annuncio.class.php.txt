@@ -1,0 +1,11 @@
+<?php
+
+class Annuncio {
+	public $id;
+
+	public __construct() {
+		
+	}
+}
+
+?>

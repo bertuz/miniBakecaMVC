@@ -1,0 +1,92 @@
+<?php
+/**
+ * File che eseguito consente di inizializzare l'ambiente del sito.
+ * @link config.config file di configurazione letto durante il setup.
+ * @author Matteo Appfarmer
+*/
+
+/**
+*/
+require("helper.php");
+require("../config.php");
+
+/**
+ * Contiene le varie logiche di setup dell'applicativo.
+ * @link config.config file di configurazione letto durante il setup.
+ * @author Matteo Appfarmer 
+*/
+class Setup {
+	/**
+	 * path del file contenente il dump del database del sito, ai fini dell'inizializzazione del DB
+	*/
+	private static $dbms_schema = 'db.sql';
+	
+	/**
+	 * Inizializza il database dell'applicativo
+	 * @return mixed[] array associativo
+	 *
+	 * - array['result'] *false* se non a buon fine, *true* altrimenti.
+	 * - array['message'] messaggio d'errore nel caso result sia false.
+	*/
+	public static function initiateDB() {
+		global $db_host;
+		global $db_user;
+		global $db_password;
+		global $db_name;
+
+		ini_set("track_errors", true);
+
+		try{
+			$pdo = new PDO("mysql:host=" . $db_host, $db_user, $db_password);
+			$stmt;
+			$sql_query;
+			$query_handle;
+
+			$pdo->beginTransaction();
+
+			$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+			$db_name = "`".str_replace("`","``",$db_name)."`";
+			if(! $pdo->query("DROP DATABASE IF EXISTS $db_name"))
+				throw new Exception("Creazione DB non avvenuta.");
+
+			if(! $pdo->query("CREATE DATABASE IF NOT EXISTS $db_name"))
+				throw new Exception("Creazione DB non avvenuta.");
+
+			if (! $pdo->query("use $db_name"))
+				throw new Exception("Accesso al DB non avvenuto.");
+					
+			$query_handle = @fopen(self::$dbms_schema, 'r');
+
+			if(! $query_handle)
+				throw new Exception("Impossibile aprire il file - $php_errormsg");
+
+			$sql_query = @fread($query_handle, @filesize(self::$dbms_schema));
+
+			if(!$sql_query)
+				throw new Exception("Lettura del dump DB non avvenuta - $php_errormsg");
+
+			$sql_query = remove_remarks($sql_query);
+			$sql_query = split_sql_file($sql_query, ';');
+
+			foreach($sql_query as $sql){
+				if(!$pdo->query($sql))
+					throw new Exception("The execution of a query during the DB population has failed.");
+			}
+		}catch(Exception $e) {
+			return(array("result"=>false, "message"=> $e->getMessage()));
+		}
+
+		return(array("result"=>true));
+	}
+}
+
+
+$res = Setup::initiateDB();
+
+if(!$res["result"])
+	echo "ERRORE: " . $res["message"];
+else
+	echo "SETUP AVVENUTO CON SUCCESSO.";
+
+?>

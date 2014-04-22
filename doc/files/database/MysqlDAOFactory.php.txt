@@ -1,0 +1,34 @@
+<?php
+// require_once str_replace('//','/',dirname(__FILE__).'/')."DAOFactory.php";
+
+// require_once str_replace('//','/',dirname(__FILE__).'/')."MysqlDAOFactory.php";
+// require_once str_replace('//','/',dirname(__FILE__).'/')."custom/MysqlCustomDAO.php";
+
+class MysqlDAOFactory implements  DAOFactory {
+
+	private static $instance;
+
+ 	private function __construct(){ }
+
+
+	public static function getInstance() {
+  		if(! isset(self::$m_pInstance))
+   			self::$m_pInstance = new MysqlDAOFactory();
+
+  		return  self::$instance;
+ 	}
+
+ 	public function getConnection() {
+  		return  db::getInstance();
+ 	}
+
+	public function getCustomDAO() {
+ 		return new MysqlCustomDAO(self::$instance);
+ 	}
+
+	// public function log($message) {
+	// 	$sql = "insert into debug(message) values('".$message."')";
+	// 	$this->getConnection()->query($sql);
+	// }
+}
+?>

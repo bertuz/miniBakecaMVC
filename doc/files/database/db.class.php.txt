@@ -1,0 +1,27 @@
+<?php
+
+class DB {
+	private static $dbType = "mysql";
+	private static $host = "localhost";
+	private static $dbName = "periodic_table";
+	private static $userName = "username";
+	private static $password = "pass";
+
+	private static $instance = null;
+
+	private function __construct() { }
+
+	public static function getInstance() {
+		if (!self::$instance) {
+		    self::$instance = new PDO("" . self::$dbType . ":host=" . self::$host . "localhost;dbname=" . self::$dbName, self::$userName, self::$password);
+		    self::$instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		}
+
+		return self::$instance;
+	}
+
+	private function __clone() { }
+}
+
+?>
+

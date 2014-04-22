@@ -1,10 +1,16 @@
 <?php
 
+/**
+ * Rappresenta la connessione al DB Mysql. Utilizza pattern singleton
+*/
 class MysqlDB {
+  /**
+   * @var MysqlDB
+  */
   static protected $instance;
 
    /**
-    * @var PDO
+    * @var connessione attraverso interfaccia PDO
     */
   protected $connection;
 
@@ -15,8 +21,15 @@ class MysqlDB {
       throw new Exception("Accesso al DB non avvenuto.");
  	}
 
+  /**
+   * Restituisce l'unica istanza disponibile della connessione al DB. Nel caso non esiste, la crea e la restituisce.
+   * @return MysqlDB
+  */
  	public static function getInstance() {
    	if(!self::$instance) {
+
+      // Vi vedo già strabuzzare gli occhi. Una classe statica di configurazione con tutti gli elementi necessari sarebbe opportuna.
+      // visto i pochissimi parametri di configurazione necessari e i limitati scopi del progetto, per ora ho lasciato così.
  	   	require(__SITE_PATH . '/config/config.php');
     	self::$instance = new self($db_host, $db_user, $db_password, $db_name);
    	}
@@ -24,7 +37,12 @@ class MysqlDB {
 		return self::$instance;
 	}
 
- 	// proxy call
+ 	/**
+   * Proxy d'esecuzione di operazioni sul DB. Controlla se l'operazione sia possibile (callable)
+   * @param String $method
+   * @param Array argomenti del metodo da chiamare
+   * @return mixed|null null in caso l'operazione non possa essere chiamata, altrimenti il risultato del metodo chiamato.
+  */
  	public function call($method, $args) {
    	$callable = array($this->connection, $method);
    	if(is_callable($callable)) {			

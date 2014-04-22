@@ -1,0 +1,38 @@
+<?php
+
+/**
+  * Value object rappresentante le informazioni inerenti ad una operazione
+  * avvenuta su di un Model del layer MVC.
+  *
+  * Le operazioni sono solitamente chiamate sui _Model_ dai _Controller_ al fine di compiere un'azione richiesta
+  * I _Model_ instanziano quindi un oggetto di tipo _OperationData_ al fine di mantenere le informazioni relative all'operazione chiamata (successo/fallimento, errori avvenuti etc...)
+  * In tal modo le _View_ potranno generare un'interfaccia ad hoc, anche in base alle informazioni sull'esito delle operazioni invocate dai controller.
+  *
+  * Questo oggetto al momento non è utilizzato dal persistent layer, ma solo dai _Model_ e _Controller_ del layer MVC
+ * @see \Model
+*/
+class OperationData {
+	/**
+	 * @var String nome del metodo invocato sul Model
+	*/
+	public $operationName;
+
+	/**
+	 * @var boolean successo/insuccesso dell'operazione invocata
+	*/	
+	public $success = false;
+
+	/**
+	 * @var mixed errori che non hanno permesso l'esecuzione con successo dell'operazione
+	*/	
+	public $errors;
+
+	/**
+	 * @param String $operationName
+	*/
+	function __construct($operationName) {
+		$this->operationName = $operationName;
+	}
+}
+
+?>

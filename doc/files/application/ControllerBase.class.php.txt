@@ -1,0 +1,18 @@
+/** @file */ 
+<?php
+
+Abstract class ControllerBase {
+	protected $registry; /**< Detailed description after the member */
+
+/** My function doing something...
+    @param param1 first parameter
+*/
+	function __construct($registry) {
+		$this->registry = $registry;
+	}
+
+	abstract function index();
+}
+
+?>
+
